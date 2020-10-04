@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form method="POST" action="/api/add-issue">
+        <input type="text" name="name" id=""/>
+  
+        <textarea name="issue" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="">
+    </form>
+
+  
+    <% issueslist.map((elem)=>{ %>
+    <div class="issues_con">
+    <h3><%= elem.user%></h3>
+    <h3><%= elem.issue%></h3>
+    <h3 style="color: brown;"><%= elem.isopen%></h3>
+    <h3></p><%= elem.isopen%></h3>
+    <button value="<%= elem.id%>" class="issue_del">dlete here</button>
+    </div>
+
+    <%}) %>
+
+</body>
+
+</html>
+<script>
+$(document).ready(function(){
+    $(".issue_del").click(function(e){
+        console.log(e.target.parentElement)
+        id = e.target.value;
+        $.ajax({
+            url: '/api/delete-issue/'+id,
+            type: 'DELETE',
+            success: function(data){
+                e.target.parentElement.remove();
+                console.log("yes")
+    }
+})
+})
+})
+
+
+$.ajax({
+    url: '/api/update-issue',
+    type: 'PATCH',
+    success: function(data){
+        
+        console.log("yes")
+    }
+})
+
+</script>
+
