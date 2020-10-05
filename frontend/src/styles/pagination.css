@@ -1,0 +1,33 @@
+.pages_con{
+    padding-top: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+.pagination {
+    
+    display: inline-block;
+
+
+   margin: auto;
+}
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  
+  .pagination a.active {
+    background-color: #0077be;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+  }

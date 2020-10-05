@@ -1,0 +1,37 @@
+
+.nav_con{
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+
+}
+.top_nav{
+    color:black;
+    display: flex;
+    align-items: stretch;
+    background-color: white;
+  }
+  .top_nav_2 {
+  color:black;
+    display: flex;
+    align-items: stretch;
+    background-color: white;
+  }
+  
+  .top_nav div {
+    background-color: white;
+    color: black;
+      
+    text-align: center;
+    line-height: 25px;
+    font-size: 13px;
+  }
+  .top_nav_2 div{
+    background-color: white;
+    color: black;
+    
+    text-align: center;
+    line-height: 25px;
+    font-size: 13px;
+  }
+  
