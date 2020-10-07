@@ -2,7 +2,7 @@
 Github issues model with all the CRUD operations using NodeJs, Express and Mysql
 
 
-##DB config
+# DB config
 
 - `/config/db.js` you can update the DB credential here
 
