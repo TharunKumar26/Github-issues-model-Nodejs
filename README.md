@@ -10,7 +10,7 @@ Github issues model with all the CRUD operations using NodeJs, Express and Mysql
 
 - Clone the repo
 - install the dependencies
-- Run `node scripts/issuestable` to create tables in the DB
+- Run `node scripts/issuestable.js` to create tables in the DB
 
 - `npm start` in the root directory to run the backend server on PORT 3000
 
