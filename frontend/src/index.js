@@ -4,9 +4,32 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+} from "react-router-dom"
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+
+<Router>
+      <Link to="/"> Home </Link>
+      <Link to="/about">About</Link>
+      <Link to='/Category'> Categories</Link>
+   
+    <Switch>
+      <Route exact path="/api" component={App }/>
+        
+      
+      <Route path='/api/list-issues' component={App }/>
+  
+
+      </Switch>
+      </Router>
+ 
   </React.StrictMode>,
   document.getElementById('root')
 );

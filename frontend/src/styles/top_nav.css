@@ -9,29 +9,41 @@
     color:black;
     display: flex;
     align-items: stretch;
-    background-color: white;
+    
   }
   .top_nav_2 {
   color:black;
     display: flex;
     align-items: stretch;
-    background-color: white;
+    
   }
   
   .top_nav div {
-    background-color: white;
+
     color: black;
       
     text-align: center;
-    line-height: 25px;
+    line-height: 30px;
     font-size: 13px;
+    box-sizing:border-box
   }
   .top_nav_2 div{
     background-color: white;
     color: black;
     
     text-align: center;
-    line-height: 25px;
+    line-height: 30px;
     font-size: 13px;
+  }
+  input[type='text']{
+      border: none;
+    padding:0;
+    margin: 0;
+    font-size: 15px;
+    line-height: 15px;
+      display: inline;
+  }
+  input:focus{
+      outline: none;
   }
   
