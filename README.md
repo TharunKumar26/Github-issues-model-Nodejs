@@ -20,9 +20,10 @@ Github issues model with all the CRUD operations using NodeJs, Express and Mysql
 - `npm test` to run testcases in backend server (or ) you can use postman
 
 
+
 ## Routes
 
-- GET `/api/list-issues` to return all the issues in paged manner of 10 per page
+- GET `/api/list-issues` to return all the issues in paged manner of 10 per page(Filter and sortings - `/api/list-issues?page=`,`/api/list-issues?show=open`, `/api/list-issues?page=2&show=closed, ) 
 
 - POST `/api/add-issue` To add an issue
 
@@ -31,5 +32,7 @@ Github issues model with all the CRUD operations using NodeJs, Express and Mysql
 - DELETE `/api/delete-issue/:id` To delete issue by ID
 
 
-
+## Note
+ 
+- ** Pagination, Filter and sorting**  Still need to connect with the frontend
 
