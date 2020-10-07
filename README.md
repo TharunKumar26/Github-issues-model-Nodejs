@@ -23,7 +23,7 @@ Github issues model with all the CRUD operations using NodeJs, Express and Mysql
 
 ## Routes
 
-- GET `/api/list-issues` to return all the issues in paged manner of 10 per page(Filter and sortings - `/api/list-issues?page=`,`/api/list-issues?show=open`, `/api/list-issues?page=2&show=closed, ) 
+- GET `/api/list-issues` to return all the issues in paged manner of 10 per page(Filter and sortings - `/api/list-issues?page=`,`/api/list-issues?show=open`, `/api/list-issues?page=2&show=closed` ) 
 
 - POST `/api/add-issue` To add an issue
 
@@ -35,4 +35,6 @@ Github issues model with all the CRUD operations using NodeJs, Express and Mysql
 ## Note
  
 - ** Pagination, Filter and sorting**  Still need to connect with the frontend
+
+## Please raise an ISSUE to let me know if they are is any problem
 
