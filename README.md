@@ -22,13 +22,13 @@ Github issues model with all the CRUD operations using NodeJs, Express and Mysql
 
 ## Routes
 
-- GET '/api/list-issues' to return all the issues in paged manner of 10 per page
+- GET `/api/list-issues` to return all the issues in paged manner of 10 per page
 
-- POST '/api/add-issue' To add an issue
+- POST `/api/add-issue` To add an issue
 
-- PATCH '/api/update-issue/:id' To update issue by ID
+- PATCH `/api/update-issue/:id` To update issue by ID
 
-- DELETE '/api/delete-issue/:id' To delete issue by ID
+- DELETE `/api/delete-issue/:id` To delete issue by ID
 
 
 
