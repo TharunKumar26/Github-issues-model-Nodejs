@@ -2,8 +2,16 @@
 Github issues model with all the CRUD operations using NodeJs, Express and Mysql
 
 
+##DB config
+
+- `/config/db.js` you can update the DB credential here
+
+# Setting Up
+
 - Clone the repo
 - install the dependencies
+- Run `node scripts/issuestable` to create tables in the DB
+
 - `npm start` in the root directory to run the backend server on PORT 3000
 
 - `npm start` in the /frontend directory. watch on '/api'
@@ -21,5 +29,7 @@ Github issues model with all the CRUD operations using NodeJs, Express and Mysql
 - PATCH '/api/update-issue/:id' To update issue by ID
 
 - DELETE '/api/delete-issue/:id' To delete issue by ID
+
+
 
 
