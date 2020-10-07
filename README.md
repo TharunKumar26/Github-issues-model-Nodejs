@@ -36,5 +36,4 @@ Github issues model with all the CRUD operations using NodeJs, Express and Mysql
  
 - ** Pagination, Filter and sorting**  Still need to connect with the frontend
 
-## Please raise an ISSUE to let me know if they are is any problem
 
